@@ -28,27 +28,27 @@ function media() {
             situacao.value = reprovado
             formulario.classList.add('reprovado')
             formulario.classList.remove('aprovado')
-            nota1.classList.add('reprovado-input')
-            nota1.classList.remove('aprovado-input')
-            nota2.classList.add('reprovado-input')
-            nota2.classList.remove('aprovado-input')
+            nota1.classList.add('reprovadoInput')
+            nota1.classList.remove('aprovadoInput')
+            nota2.classList.add('reprovadoInput')
+            nota2.classList.remove('aprovadoInput')
         }
 
         if (nota1 >= 7) {
-            nota1.classList.remove('reprovado-input')
-            nota1.classList.add('aprovado-input')
+            nota1.classList.remove('reprovadoInput')
+            nota1.classList.add('aprovadoInput')
             
         } else {
-            nota1.classList.add('reprovado-input')
-            nota1.classList.remove('aprovado-input')
+            nota1.classList.add('reprovadoInput')
+            nota1.classList.remove('aprovadoInput')
         }
 
         if (nota2 >= 7) {
-            nota2.classList.remove('reprovado-input')
-            nota2.classList.add('aprovado-input')
+            nota2.classList.remove('reprovadoInput')
+            nota2.classList.add('aprovadoInput')
         } else {
-            nota2.classList.add('reprovado-input')
-            nota2.classList.remove('aprovado-input')
+            nota2.classList.add('reprovadoInput')
+            nota2.classList.remove('aprovadoInput')
         }
 
     }
